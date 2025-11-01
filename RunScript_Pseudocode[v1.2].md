@@ -4,6 +4,10 @@
 
 2. Connect to an event called `InputBegan`  that's inside of `UserInputService` with  `input` as an input
 
+```lua
+UserInputService.InputBegan:Connect(function(input)
+end)
+```
 3. Create a conditional `if` statement inside it should check the following. `UserInputService` has a function inside of it called `:IsKeyDown()` call it with `Enum.KeyCode.LeftShift` as an input, you `then`
 
 4. This attribute called `WalkSpeed` works like a variable and can be set to `100` you can access this attribute first starting from the instance called `game` then next `.Players` then next `.LocalPlayer` then next `.Character` then next `.Humanoid` then next `.WalkSpeed`
