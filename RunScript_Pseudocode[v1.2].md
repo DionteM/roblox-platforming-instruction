@@ -11,3 +11,17 @@ end)
 
 4. This attribute called `WalkSpeed` works like a variable and can be set to `100` you can access this attribute first starting from the instance called `game` then next `.Players` then next `.LocalPlayer` then next `.Character` then next `.Humanoid` then next `.WalkSpeed`
 
+5. You can `end` the conditional statement from line **3.** here
+
+6. You can `end` the event from line **2.** here. Below is the rest of script.
+
+```lua
+u.InputEnded:Connect(function(input)
+	if input.KeyCode == Enum.KeyCode.LeftShift then
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 8
+	end
+end)
+```
+
+
+
