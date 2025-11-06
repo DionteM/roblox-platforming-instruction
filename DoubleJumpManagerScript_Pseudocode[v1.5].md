@@ -43,3 +43,11 @@ player.CharacterAdded:Connect(function(char)
 			script["DoubleJump"]:Clone().Parent = player.Character
 		end
 ```
+19. You can `end` the conditional statement from line **17.** here
+20. You can `end)` the event from line **6.** here
+21. The rest of the code is shown below
+```lua
+event.OnServerEvent:Connect(function(player)
+	event:FireAllClients(player)
+end)
+```
