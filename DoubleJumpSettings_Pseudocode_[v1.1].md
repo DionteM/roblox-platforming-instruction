@@ -1,4 +1,4 @@
-# DoubleJumpSettings - Pseudocode
+# DoubleJumpSettings - Code
 ```lua
 local Settings = {
 	ExtraJumps = 2,
