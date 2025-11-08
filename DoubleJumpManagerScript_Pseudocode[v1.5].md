@@ -12,7 +12,7 @@
 
 6. Connect to an event called `.PlayerAdded`  that's inside of `PlayerService` with  `player` as an input. There's a **hint** below
 ```lua
-PlayerSerivce.PlayerAdded:Connect(function(player)
+PlayerService.PlayerAdded:Connect(function(player)
 end)
 ```
 7.) Create a `local` varaible named `canUse` and set it to `true`
