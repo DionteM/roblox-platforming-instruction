@@ -12,7 +12,7 @@
 
 6. Connect to an event called `.PlayerAdded`  that's inside of `PlayerService` with  `player` as an input. There's a **hint** below
 ```lua
-PlayerSerivce.PlayerAdded:Connect(function(players)
+PlayerSerivce.PlayerAdded:Connect(function(player)
 end)
 ```
 7.) Create a `local` varaible named `canUse` and set it to `true`
@@ -37,10 +37,10 @@ for _,id in pairs(settings.WhiteList) do
 
 ```lua
 player.CharacterAdded:Connect(function(char)
-			script["DoubleJump"]:Clone().Parent = char
+			script["DoubleJumpScript"]:Clone().Parent = char
 		end)
 		if player.Character then
-			script["DoubleJump"]:Clone().Parent = player.Character
+			script["DoubleJumpScript"]:Clone().Parent = player.Character
 		end
 ```
 19. You can `end` the conditional statement from line **17.** here
