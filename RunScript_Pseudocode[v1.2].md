@@ -16,7 +16,7 @@ end)
 6. You can `end` the event from line **2.** here. Below is the rest of script.
 
 ```lua
-u.InputEnded:Connect(function(input)
+UserInputService.InputEnded:Connect(function(input)
 	if input.KeyCode == Enum.KeyCode.LeftShift then
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 8
 	end
